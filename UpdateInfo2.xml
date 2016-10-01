@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoftwareUpdateCollection xmlns="http://pathcopycopy.codeplex.com/xsd/SoftwareUpdate/V2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pathcopycopy.codeplex.com/xsd/SoftwareUpdate/V2 Schemas/SoftwareUpdates.xsd">
+    <UpdateInfos>
+        <SoftwareUpdateInfo>
+            <Version>14.0.0.0</Version>
+            <RequiredWindowsVersion>5.1.0.0</RequiredWindowsVersion>
+            <InstallSources>
+                <string>Inno</string>
+                <string>Portable</string>
+            </InstallSources>
+            <Name>14.0</Name>
+            <Url>http://pathcopycopy.codeplex.com/releases/view/95824</Url>
+            <ReleaseNotes>
+                <string><![CDATA[
+                <p>Test release from GitHub</p>
+                ]]></string>
+            </ReleaseNotes>
+        </SoftwareUpdateInfo>
+    </UpdateInfos>
+</SoftwareUpdateCollection>
