@@ -4,18 +4,19 @@
     xsi:schemaLocation="http://pathcopycopy.codeplex.com/xsd/SoftwareUpdate/V2 Schemas/SoftwareUpdates.xsd">
     <UpdateInfos>
         <SoftwareUpdateInfo>
-            <Version>12.0.0.0</Version>
+            <Version>13.0.0.0</Version>
             <RequiredWindowsVersion>5.1.0.0</RequiredWindowsVersion>
             <InstallSources>
                 <string>Inno</string>
                 <string>Portable</string>
             </InstallSources>
-            <Name>12.0</Name>
-            <Url>http://pathcopycopy.codeplex.com/releases/view/95824</Url>
+            <Name>13.0</Name>
+            <Url>http://pathcopycopy.codeplex.com/releases/view/628185</Url>
             <ReleaseNotes>
                 <string><![CDATA[
-                <p>Major release packed with tons of new features and bug fixes. A recommended update for all users.</p>
-                <p>The list of changes is too long to include in this window; follow the link to see the full changelog.</p>
+                <p>Major release that adds an oft-requested feature: the ability to fully reorder commands and add/remove separators.</p>
+                <p>There are other new features and bug fixes, follow the link above for the entire list.</p>
+                <p>A recommended upgrade for all users.</p>
                 ]]></string>
             </ReleaseNotes>
         </SoftwareUpdateInfo>
