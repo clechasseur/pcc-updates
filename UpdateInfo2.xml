@@ -4,19 +4,17 @@
     xsi:schemaLocation="http://pathcopycopy.codeplex.com/xsd/SoftwareUpdate/V2 Schemas/SoftwareUpdates.xsd">
     <UpdateInfos>
         <SoftwareUpdateInfo>
-            <Version>14.0</Version>
+            <Version>14.0.1</Version>
             <RequiredWindowsVersion>5.1.0.0</RequiredWindowsVersion>
             <InstallSources>
                 <string>Inno</string>
                 <string>Portable</string>
             </InstallSources>
-            <Name>14.0</Name>
-            <Url>https://github.com/clechasseur/pathcopycopy/releases/tag/14.0</Url>
+            <Name>14.0.1</Name>
+            <Url>https://github.com/clechasseur/pathcopycopy/releases/tag/v14.0.1</Url>
             <ReleaseNotes>
                 <string><![CDATA[
-                <p>The Path Copy Copy project is moving to GitHub! 14.0 is the first release to be hosted there.</p>
-                <p>This version features a revamped Settings UI that looks more like the old one from 12.0. It is more user-friendly.</p>
-                <p>This is a must-have upgrade for all users!</p>
+                <p>Bugfix version that restores compatibility with Windows XP. A must-have for XP users and users who don't have version 14.0; can be ignored otherwise.</p>
                 ]]></string>
             </ReleaseNotes>
         </SoftwareUpdateInfo>
