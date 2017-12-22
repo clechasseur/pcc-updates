@@ -4,17 +4,22 @@
     xsi:schemaLocation="http://pathcopycopy.codeplex.com/xsd/SoftwareUpdate/V2 Schemas/SoftwareUpdates.xsd">
     <UpdateInfos>
         <SoftwareUpdateInfo>
-            <Version>14.0.1</Version>
+            <Version>15.0</Version>
             <RequiredWindowsVersion>5.1.0.0</RequiredWindowsVersion>
             <InstallSources>
                 <string>Inno</string>
                 <string>Portable</string>
             </InstallSources>
-            <Name>14.0.1</Name>
-            <Url>https://github.com/clechasseur/pathcopycopy/releases/tag/v14.0.1</Url>
+            <Name>15.0</Name>
+            <Url>https://github.com/clechasseur/pathcopycopy/releases/tag/v15.0</Url>
             <ReleaseNotes>
                 <string><![CDATA[
-                <p>Bugfix version that restores compatibility with Windows XP. A must-have for XP users and users who don't have version 14.0; can be ignored otherwise.</p>
+                <p>New release with two new features:</p>
+				<ul>
+				  <li>Custom commands can now launch an executable with paths as argument, instead of copying to clipboard</li>
+				  <li>It is now possible to assign a command to be used automatically when the Ctrl key is held down</li>
+				</ul>
+				<p>In addition, two bugs have been fixed, including the bug that prevented ignoring software updates from working.</p>
                 ]]></string>
             </ReleaseNotes>
         </SoftwareUpdateInfo>
