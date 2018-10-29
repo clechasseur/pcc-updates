@@ -4,22 +4,22 @@
     xsi:schemaLocation="http://pathcopycopy.codeplex.com/xsd/SoftwareUpdate/V2 Schemas/SoftwareUpdates.xsd">
     <UpdateInfos>
         <SoftwareUpdateInfo>
-            <Version>15.0</Version>
+            <Version>15.1</Version>
             <RequiredWindowsVersion>5.1.0.0</RequiredWindowsVersion>
             <InstallSources>
                 <string>Inno</string>
                 <string>Portable</string>
             </InstallSources>
-            <Name>15.0</Name>
-            <Url>https://github.com/clechasseur/pathcopycopy/releases/tag/v15.0</Url>
+            <Name>15.1</Name>
+            <Url>https://github.com/clechasseur/pathcopycopy/releases/tag/v15.1</Url>
             <ReleaseNotes>
                 <string><![CDATA[
-                <p>New release with two new features:</p>
+                <p>Mostly a bugfix release, but recommended nonetheless. The following important issues have been addressed:</p>
 				<ul>
-				  <li>Custom commands can now launch an executable with paths as argument, instead of copying to clipboard</li>
-				  <li>It is now possible to assign a command to be used automatically when the Ctrl key is held down</li>
+				  <li>Can now remove separators from the menus</li>
+				  <li>Path won't be copied on right-click if Ctrl key is not held down (if that option is enabled)</li>
 				</ul>
-				<p>In addition, two bugs have been fixed, including the bug that prevented ignoring software updates from working.</p>
+				<p>Visit the release link to get the full list of issues.</p>
                 ]]></string>
             </ReleaseNotes>
         </SoftwareUpdateInfo>
