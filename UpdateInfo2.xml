@@ -4,22 +4,23 @@
     xsi:schemaLocation="http://pathcopycopy.codeplex.com/xsd/SoftwareUpdate/V2 Schemas/SoftwareUpdates.xsd">
     <UpdateInfos>
         <SoftwareUpdateInfo>
-            <Version>15.1</Version>
+            <Version>16.0</Version>
             <RequiredWindowsVersion>5.1.0.0</RequiredWindowsVersion>
             <InstallSources>
                 <string>Inno</string>
                 <string>Portable</string>
             </InstallSources>
-            <Name>15.1</Name>
-            <Url>https://github.com/clechasseur/pathcopycopy/releases/tag/v15.1</Url>
+            <Name>16.0</Name>
+            <Url>https://github.com/clechasseur/pathcopycopy/releases/tag/v16.0</Url>
             <ReleaseNotes>
                 <string><![CDATA[
-                <p>Mostly a bugfix release, but recommended nonetheless. The following important issues have been addressed:</p>
+                <p>New release packed with new commands, new options, etc. Recommended for all users! Includes:</p>
 				<ul>
-				  <li>Can now remove separators from the menus</li>
-				  <li>Path won't be copied on right-click if Ctrl key is not held down (if that option is enabled)</li>
+				  <li>Ability to use fully-qualified domain names in UNC paths</li>
+				  <li>Adding quotes around paths can be conditional to them containing spaces</li>
+				  <li>New commands to copy Samba and WSL (Windows Subsystem for Linux) paths</li>
 				</ul>
-				<p>Visit the release link to get the full list of issues.</p>
+				<p>Visit the release link to get the full list of features.</p>
                 ]]></string>
             </ReleaseNotes>
         </SoftwareUpdateInfo>
