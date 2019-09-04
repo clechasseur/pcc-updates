@@ -4,23 +4,23 @@
     xsi:schemaLocation="http://pathcopycopy.codeplex.com/xsd/SoftwareUpdate/V2 Schemas/SoftwareUpdates.xsd">
     <UpdateInfos>
         <SoftwareUpdateInfo>
-            <Version>16.0</Version>
+            <Version>17.0</Version>
             <RequiredWindowsVersion>5.1.0.0</RequiredWindowsVersion>
             <InstallSources>
                 <string>Inno</string>
                 <string>Portable</string>
             </InstallSources>
-            <Name>16.0</Name>
-            <Url>https://github.com/clechasseur/pathcopycopy/releases/tag/v16.0</Url>
+            <Name>17.0</Name>
+            <Url>https://github.com/clechasseur/pathcopycopy/releases/tag/v17.0</Url>
             <ReleaseNotes>
                 <string><![CDATA[
-                <p>New release packed with new commands, new options, etc. Recommended for all users! Includes:</p>
+                <p>The first release in almost a year and full of new features and bug fixes. A recommended upgrade for all users!</p>
 				<ul>
-				  <li>Ability to use fully-qualified domain names in UNC paths</li>
-				  <li>Adding quotes around paths can be conditional to them containing spaces</li>
-				  <li>New commands to copy Samba and WSL (Windows Subsystem for Linux) paths</li>
+				  <li>.NET dependency moved to .NET 4</li>
+				  <li>Expert Mode for custom commands</li>
+				  <li>Documentation finally added to the wiki on GitHub</li>
 				</ul>
-				<p>Visit the release link to get the full list of features.</p>
+				<p>This will be the <strong>last release to support Windows XP</strong>. Future versions will target more modern OSes. As Microsoft's support for Windows XP has already ended, this is reasonable.</p>
                 ]]></string>
             </ReleaseNotes>
         </SoftwareUpdateInfo>
