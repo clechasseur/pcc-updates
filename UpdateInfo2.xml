@@ -20,7 +20,7 @@
 				  <li>Expert Mode for custom commands</li>
 				  <li>Documentation finally added to the wiki on GitHub</li>
 				</ul>
-				<p>This will be the <strong>last release to support Windows XP</strong>. Future versions will target more modern OSes. As Microsoft's support for Windows XP has already ended, this is reasonable.</p>
+				<p>This will be the <strong>last major release to support Windows XP</strong>. Future major versions will target more modern OSes. As Microsoft's support for Windows XP has already ended, this is reasonable.</p>
                 ]]></string>
             </ReleaseNotes>
         </SoftwareUpdateInfo>
