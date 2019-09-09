@@ -4,14 +4,14 @@
     xsi:schemaLocation="http://pathcopycopy.codeplex.com/xsd/SoftwareUpdate/V2 Schemas/SoftwareUpdates.xsd">
     <UpdateInfos>
         <SoftwareUpdateInfo>
-            <Version>17.0</Version>
+            <Version>17.0.1</Version>
             <RequiredWindowsVersion>5.1.0.0</RequiredWindowsVersion>
             <InstallSources>
                 <string>Inno</string>
                 <string>Portable</string>
             </InstallSources>
-            <Name>17.0</Name>
-            <Url>https://github.com/clechasseur/pathcopycopy/releases/tag/v17.0</Url>
+            <Name>17.0.1</Name>
+            <Url>https://github.com/clechasseur/pathcopycopy/releases/tag/v17.0.1</Url>
             <ReleaseNotes>
                 <string><![CDATA[
                 <p>The first release in almost a year and full of new features and bug fixes. A recommended upgrade for all users!</p>
@@ -21,6 +21,7 @@
 				  <li>Documentation finally added to the wiki on GitHub</li>
 				</ul>
 				<p>This will be the <strong>last major release to support Windows XP</strong>. Future major versions will target more modern OSes. As Microsoft's support for Windows XP has already ended, this is reasonable.</p>
+                <p>(Version 17.0.1 is a quick bugfix release highly recommended for all users. Otherwise similar to 17.0.)</p>
                 ]]></string>
             </ReleaseNotes>
         </SoftwareUpdateInfo>
