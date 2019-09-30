@@ -4,24 +4,23 @@
     xsi:schemaLocation="http://pathcopycopy.codeplex.com/xsd/SoftwareUpdate/V2 Schemas/SoftwareUpdates.xsd">
     <UpdateInfos>
         <SoftwareUpdateInfo>
-            <Version>17.0.1</Version>
+            <Version>17.1</Version>
             <RequiredWindowsVersion>5.1.0.0</RequiredWindowsVersion>
             <InstallSources>
                 <string>Inno</string>
                 <string>Portable</string>
             </InstallSources>
-            <Name>17.0.1</Name>
-            <Url>https://github.com/clechasseur/pathcopycopy/releases/tag/v17.0.1</Url>
+            <Name>17.1</Name>
+            <Url>https://github.com/clechasseur/pathcopycopy/releases/tag/v17.1</Url>
             <ReleaseNotes>
                 <string><![CDATA[
-                <p>The first release in almost a year and full of new features and bug fixes. A recommended upgrade for all users!</p>
+                <p>New minor release with improvements and bug fixes, most notably:</p>
 				<ul>
-				  <li>.NET dependency moved to .NET 4</li>
-				  <li>Expert Mode for custom commands</li>
-				  <li>Documentation finally added to the wiki on GitHub</li>
+				  <li>New preview box when editing custom commands</li>
+				  <li>Dialogs used to edit custom commands will remember their size</li>
+				  <li>Custom commands now remember in which mode they were edited last</li>
 				</ul>
-				<p>This will be the <strong>last major release to support Windows XP</strong>. Future major versions will target more modern OSes. As Microsoft's support for Windows XP has already ended, this is reasonable.</p>
-                <p>(Version 17.0.1 is a quick bugfix release highly recommended for all users. Otherwise similar to 17.0.)</p>
+				<p>Get full list of changes on the release page. A recommended upgrade for all users!</p>
                 ]]></string>
             </ReleaseNotes>
         </SoftwareUpdateInfo>
