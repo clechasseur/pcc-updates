@@ -19,6 +19,7 @@
 				  <li>New preview box when editing custom commands</li>
 				  <li>Dialogs used to edit custom commands will remember their size</li>
 				  <li>Custom commands now remember in which mode they were edited last</li>
+                  <li>Installer is now signed and recognized as a trusted publisher</li>
 				</ul>
 				<p>Get full list of changes on the release page. A recommended upgrade for all users!</p>
                 ]]></string>
