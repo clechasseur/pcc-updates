@@ -4,6 +4,29 @@
     xsi:schemaLocation="http://pathcopycopy.codeplex.com/xsd/SoftwareUpdate/V2 Schemas/SoftwareUpdates.xsd">
     <UpdateInfos>
         <SoftwareUpdateInfo>
+            <Version>18.0</Version>
+            <RequiredWindowsVersion>6.0.0.0</RequiredWindowsVersion>
+            <InstallSources>
+                <string>Inno</string>
+            </InstallSources>
+            <Name>18.0</Name>
+            <Url>https://github.com/clechasseur/pathcopycopy/releases/tag/v18.0</Url>
+            <ReleaseNotes>
+                <string><![CDATA[
+                <p>Major release with many improvements and bug fixes, including:</p>
+				<ul>
+				  <li>Support for per-machine and per-user installations from the same installer</li>
+                  <li>Custom commands can now be based on other custom commands</li>
+                  <li>New option to get the path of an actual shortcut instead of the path of its target</li>
+                  <li>New custom command feature to replace parts of the path with environment variable references</li>
+                  <li>Windows of the Settings application can no longer appear offscreen</li>
+				</ul>
+				<p>This is the first release requiring Windows Vista at a minimum. Grab it now!</p>
+                ]]>
+                </string>
+            </ReleaseNotes>
+        </SoftwareUpdateInfo>
+        <SoftwareUpdateInfo>
             <Version>17.1</Version>
             <RequiredWindowsVersion>5.1.0.0</RequiredWindowsVersion>
             <InstallSources>
