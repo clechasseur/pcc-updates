@@ -4,6 +4,27 @@
     xsi:schemaLocation="http://pathcopycopy.codeplex.com/xsd/SoftwareUpdate/V2 Schemas/SoftwareUpdates.xsd">
     <UpdateInfos>
         <SoftwareUpdateInfo>
+            <Version>20.0.0.0</Version>
+            <RequiredWindowsVersion>6.1.7601.0</RequiredWindowsVersion>
+            <InstallSources>
+                <string>Inno</string>
+            </InstallSources>
+            <Name>20.0</Name>
+            <Url>https://github.com/clechasseur/pathcopycopy/releases/tag/v20.0</Url>
+            <ReleaseNotes>
+                <string><![CDATA[
+                <p>First major release in more than a year! Includes new features/bug fixes such as:</p>
+                <ul>
+                    <li>Many fixes regarding icons in Settings application</li>
+                    <li>Better support for high DPI monitors</li>
+                    <li>Better support for long paths on Windows 10</li>
+                </ul>
+                <p>and much more! See the complete list <a href="https://github.com/clechasseur/pathcopycopy/milestone/9?closed=1">here</a>.</p>
+                ]]>
+                </string>
+            </ReleaseNotes>
+        </SoftwareUpdateInfo>
+        <SoftwareUpdateInfo>
             <Version>19.0.0.0</Version>
             <RequiredWindowsVersion>6.0.0.0</RequiredWindowsVersion>
             <InstallSources>
